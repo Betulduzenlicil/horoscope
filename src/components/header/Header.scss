@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+.header {
+    text-align: center;
+ 
+    h1 {
+      display: inline-block;
+      margin-top: 13rem;
+      margin-bottom: 2rem;
+      animation: h1 1.5s infinite;
+      font-size: 3rem;
+      font-weight: 100;
+      text-shadow: 4px 5px 10px #0ccd29;
+      text-decoration: underline;
+      letter-spacing: 7px;
+      cursor: pointer;
+      
+      &:hover {
+        color: #8ed69f;
+      }
+    }
+    @keyframes h1 {
+      0% {
+        opacity: 0.2;
+      }
+  
+      50% {
+        opacity: 0.6;
+      }
+  
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    h1 {
+      padding-top: 7rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    h1 {
+      padding-top: 2rem;
+      font-size: 1.7rem;
+    }
+  }
+  
